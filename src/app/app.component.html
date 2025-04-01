@@ -1,0 +1,4 @@
+<button (click)="showInvite()">Please Open</button>
+<app-wedding-invite
+  *ngIf="isInviteVisible"
+  (close)="isInviteVisible=false"></app-wedding-invite>
